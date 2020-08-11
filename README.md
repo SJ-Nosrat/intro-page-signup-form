@@ -1,8 +1,3 @@
-# intro-page-signup-form
-Intro component of a page with signup form
-
-Challenge taken from [frontendmentor.io]
-
 # Frontend Mentor - Intro component with sign up form
 
 ![Design preview for the Intro component with sign up form coding challenge](./design/desktop-preview.jpg)

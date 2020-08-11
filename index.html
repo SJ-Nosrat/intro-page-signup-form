@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    
+    <title>Frontend Mentor | Intro component with sign up form</title>
+
+    <!--GOOGLE FONTS-->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,500&display=swap" rel="stylesheet">
+
+    <!--CSS STYLESHEET AND NORMALIZE STYLESHEET-->
+    <link rel="stylesheet" href="css/normalize.css" type="text/css">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+  </head>
+  <body>
+    <div class="content-wrapper">
+      <header class="intro">
+        <h1 class="title">Learn to code by watching others</h1>
+        <p class="desc">See how experienced developers solve problems in real-time. Watching scripted tutorials is great, but understanding how developers think is invaluable. </p>
+      </header>
+      <section>
+        <div class="tag">
+          <p class="tag-para">Try it free 7 days <span class="pricing">then $20/mo. thereafter</span></p>
+        </div>
+        <form action="" method="POST" class="sign-up" id="form">
+          <div class="form-wrapper">
+            <div class="input-container">
+              <input type="text" id="first_name" class="input-fields" name="first_name" placeholder="First Name">
+              <img src="images/icon-error.svg" alt="error icon" class="error-icon">
+              <span class="error-msg"></span>
+            </div>
+            <div class="input-container">
+              <input type="text" id="last_name" class="input-fields" name="last_name" placeholder="Last Name">
+              <img src="images/icon-error.svg" alt="error icon" class="error-icon">
+              <span class="error-msg"></span>
+            </div>
+            <div class="input-container">
+              <input type="text" id="email_add" class="input-fields" name="email_add" placeholder="Email Address">
+              <img src="images/icon-error.svg" alt="error icon" class="error-icon">
+              <span class="error-msg"></span>
+            </div>
+            <div class="input-container">
+              <input type="password" id="password" class="input-fields" name="password" placeholder="Password">
+              <img src="images/icon-error.svg" alt="error icon" class="error-icon">
+              <span class="error-msg"></span>
+            </div>
+            <button type="submit" class="cta-btn">CLAIM YOUR FREE TRIAL</button>
+            <p class="disclaimer">By clicking the button, you are agreeing to our <span>Terms and Services</span></p>
+          </div>
+        </form>
+      </section>
+    </div>
+    <footer>
+      <p class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="#">SJ Nosrat</a>.
+      </p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
