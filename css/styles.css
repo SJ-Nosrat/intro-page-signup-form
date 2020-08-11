@@ -103,7 +103,7 @@ section {
     opacity: .75;
     line-height: 1.857;
     margin-bottom: 1rem;
-    max-width: 100%;
+    width: 100%;
 }
 
 .input-fields:focus {
